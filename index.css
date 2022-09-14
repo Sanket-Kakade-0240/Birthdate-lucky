@@ -40,17 +40,28 @@
 }
 
 .contain{
-    width: 50%;
-    margin: auto;
     
-}
-
-input,label{
+    text-align: center;
+    font-size: large ;
+    font-weight: bold;
+    /* margin: auto; */
     display: block;
+    margin: 0.5rem;
 }
 
 input{
-    margin: 0.5rem;
+    width: 15%;
+    border: solid rgb(48, 13, 71) ;
+}
+#btn-Check{
+    font-size: large;
+}
+#btn-Check:hover{
+    color: rgb(95, 4, 155);
+    border-style: solid;
+    background-color:white;
+    border-color: rgb(95, 4, 155);
+    text-align: center;
 }
 
 .footer {
